@@ -1,6 +1,6 @@
 # Dicee SwiftUI Project With MVVM
 
-![Dicee Screen Shot](images/DiceeSS.png)
+![Dicee Screen Shot](DiceeSS.png)
 
 ## Overview
 Dicee is a simple dice-rolling app built with SwiftUI. It allows users to simulate the rolling of two six-sided dice.
