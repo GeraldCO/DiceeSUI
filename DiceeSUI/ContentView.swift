@@ -8,21 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var diceOne = "DiceOne"
-    @State var diceTwo = "DiceTwo"
-    
-    func roll(){
-        let diceImages = [
-            "DiceOne",
-            "DiceTwo",
-            "DiceThree",
-            "DiceFour",
-            "DiceFive",
-            "DiceSix"
-        ]
-        diceOne = diceImages[Int.random(in: 0..<6)]
-        diceTwo = diceImages[Int.random(in: 0..<6)]
-    }
+    @StateObject var viewModel = DiceViewModel()
     
     var body: some View {
         
@@ -30,15 +16,16 @@ struct ContentView: View {
         VStack {
             Image("DiceeLogo")
             HStack{
-                Image(diceOne)
+                Image(viewModel.diceOne)
                     .padding()
-                Image(diceTwo)
+                Image(viewModel.diceTwo)
                     .padding()
             }
-            Button(action: roll, label: {
+            Button(action: viewModel.roll, label: {
                 Text("Roll")
                     .foregroundStyle(.white)
-                    .padding().font(.title)
+                    .padding()
+                    .font(.title)
             })
             .background(.red)
             .cornerRadius(15)

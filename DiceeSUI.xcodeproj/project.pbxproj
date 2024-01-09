@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		746A1F402B48CE6B00430E9C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A1F3F2B48CE6B00430E9C /* Model.swift */; };
+		746A1F422B48D01500430E9C /* DiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A1F412B48D01500430E9C /* DiceViewModel.swift */; };
 		747C39632B451A9C001BFF46 /* DiceeSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C39622B451A9C001BFF46 /* DiceeSUIApp.swift */; };
 		747C39652B451A9C001BFF46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C39642B451A9C001BFF46 /* ContentView.swift */; };
 		747C39672B451A9D001BFF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747C39662B451A9D001BFF46 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		746A1F3F2B48CE6B00430E9C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		746A1F412B48D01500430E9C /* DiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewModel.swift; sourceTree = "<group>"; };
 		747C395F2B451A9C001BFF46 /* DiceeSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceeSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747C39622B451A9C001BFF46 /* DiceeSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeSUIApp.swift; sourceTree = "<group>"; };
 		747C39642B451A9C001BFF46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				747C39642B451A9C001BFF46 /* ContentView.swift */,
 				747C39662B451A9D001BFF46 /* Assets.xcassets */,
 				747C39682B451A9D001BFF46 /* Preview Content */,
+				746A1F3F2B48CE6B00430E9C /* Model.swift */,
+				746A1F412B48D01500430E9C /* DiceViewModel.swift */,
 			);
 			path = DiceeSUI;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				747C39652B451A9C001BFF46 /* ContentView.swift in Sources */,
+				746A1F402B48CE6B00430E9C /* Model.swift in Sources */,
 				747C39632B451A9C001BFF46 /* DiceeSUIApp.swift in Sources */,
+				746A1F422B48D01500430E9C /* DiceViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
